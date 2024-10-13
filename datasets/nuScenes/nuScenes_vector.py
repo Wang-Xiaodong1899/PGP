@@ -1,4 +1,4 @@
-from datasets.nuScenes.nuScenes import NuScenesTrajectories
+from dataset.nuScenes.nuScenes import NuScenesTrajectories
 from nuscenes.prediction.input_representation.static_layers import correct_yaw
 from nuscenes.map_expansion.map_api import NuScenesMap
 from nuscenes.eval.common.utils import quaternion_yaw

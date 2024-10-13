@@ -1,4 +1,4 @@
-from datasets.interface import SingleAgentDataset
+from dataset.interface import SingleAgentDataset
 from nuscenes.eval.prediction.splits import get_prediction_challenge_split
 from nuscenes.prediction import PredictHelper
 import numpy as np

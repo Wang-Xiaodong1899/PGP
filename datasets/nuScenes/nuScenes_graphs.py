@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from datasets.nuScenes.nuScenes_vector import NuScenesVector
+from dataset.nuScenes.nuScenes_vector import NuScenesVector
 from nuscenes.prediction.input_representation.static_layers import color_by_yaw
 from nuscenes.map_expansion.map_api import NuScenesMap
 from nuscenes.prediction import PredictHelper

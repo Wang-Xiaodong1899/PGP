@@ -1,10 +1,10 @@
-# Import datasets
+# import dataset
 from nuscenes import NuScenes
 from nuscenes.prediction import PredictHelper
-from datasets.interface import TrajectoryDataset
-from datasets.nuScenes.nuScenes_raster import NuScenesRaster
-from datasets.nuScenes.nuScenes_vector import NuScenesVector
-from datasets.nuScenes.nuScenes_graphs import NuScenesGraphs
+from dataset.interface import TrajectoryDataset
+from dataset.nuScenes.nuScenes_raster import NuScenesRaster
+from dataset.nuScenes.nuScenes_vector import NuScenesVector
+from dataset.nuScenes.nuScenes_graphs import NuScenesGraphs
 
 # Import models
 from models.model import PredictionModel

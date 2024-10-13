@@ -1,4 +1,4 @@
-from datasets.interface import TrajectoryDataset
+from dataset.interface import TrajectoryDataset
 import torch.utils.data as torch_data
 from typing import List, Dict
 import torch

@@ -1,4 +1,4 @@
-from datasets.nuScenes.nuScenes import NuScenesTrajectories
+from dataset.nuScenes.nuScenes import NuScenesTrajectories
 from nuscenes.prediction.input_representation.static_layers import StaticLayerRasterizer
 from nuscenes.prediction.input_representation.agents import AgentBoxesWithFadedHistory
 from nuscenes.prediction import PredictHelper

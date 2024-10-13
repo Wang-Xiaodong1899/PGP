@@ -1,5 +1,5 @@
 import torch
-from datasets.interface import SingleAgentDataset
+from dataset.interface import SingleAgentDataset
 import numpy as np
 from sklearn.cluster import KMeans
 import psutil

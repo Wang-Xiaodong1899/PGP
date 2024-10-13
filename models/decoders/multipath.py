@@ -2,7 +2,7 @@ from models.decoders.mtp import MTP
 from models.decoders.utils import k_means_anchors
 import torch
 import torch.nn as nn
-from datasets.interface import SingleAgentDataset
+from dataset.interface import SingleAgentDataset
 from typing import Dict
 
 
