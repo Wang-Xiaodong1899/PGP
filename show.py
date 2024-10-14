@@ -14,6 +14,8 @@ with open(file_path, "rb") as f:
 
 sample_token = data["inputs"]["sample_token"]
 
+import pdb; pdb.set_trace()
+
 
 nusc = NuScenes(version='v1.0-trainval', dataroot=root, verbose=True)
 
